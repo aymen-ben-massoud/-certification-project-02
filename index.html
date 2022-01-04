@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+
+    <div>
+ 
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+      <br />
+      <div class="container  ">
+          <div class="row justify-content-center ">
+              <div class="col-lg-8 col-11">
+        <form id="survey-form">
+          <label id="name-label">Name </label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter your name"
+          /><br />
+          <label id="email-label">Email </label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your E-mail"
+          /><br />
+          <label id="number-label">Age (optional) </label>
+          <input
+            type="number"
+            class="form-control"
+            id="number"
+            placeholder="Age"
+          /><br />
+          <label>Which option best describes your current role?</label><br />
+          <select
+            class="form-select"
+            aria-label="Default select example"
+            id="dropdown"
+            aria-placeholder="prefer not to say"
+          >
+            <option selected>Open this select menu</option>
+            <option value="1">select ccurent role</option>
+            <option value="2">student</option>
+            <option value="3">full time job</option>
+            <option value="4">full time learner</option>
+            <option value="5">prefer not to say</option>
+            <option value="6">other</option></select
+          ><br /><br />
+          <label>Would you recommend freeCodeCamp to a friend?</label><br />
+          <input type="radio" id="fav_language" value="HTML" />
+            <label class="theone">Definitely</label> <br />
+          <input type="radio" id="fav_language" value="HTML" />
+            <label class="theone">Maybe</label> <br />
+          <input type="radio" id="fav_language" value="HTML" />
+            <label class="theone">Not sure</label> <br /><br />
+          <label for="">What is your favorite feature of freeCodeCamp?</label
+          ><br />
+          <select
+            class="form-select"
+            aria-label="Default select example"
+            id="dropdown"
+            aria-placeholder="select an option"
+          >
+            <option selected>select an option</option>
+            <option value="1">challengs</option>
+            <option value="2">projects</option>
+            <option value="3">community</option>
+            <option value="4">open souces</option></select
+          ><br /><br />
+          <label for=""
+            >What would you like to see improved? (Check all that apply)</label
+          ><br />
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault">
+            Front-end Projects </label
+          ><br />
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault">
+            Back-end Projects </label
+          ><br />
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault">
+            Challenges </label
+          ><br />
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault">
+            Open Source Community </label
+          ><br />
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault">
+            Gitter help rooms </label
+          ><br />
+
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault"> Videos </label
+          ><br />
+
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault">
+            City Meetups </label
+          ><br />
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault"> Wiki </label
+          ><br />
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault"> Forum </label
+          ><br />
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault">
+            Additional Courses </label
+          ><br /><br />
+          <label>Any comments or suggestions? </label>
+          <textarea
+            class="form-control"
+            placeholder="Enter your  comment here"
+            id="floatingTextarea2"
+            style="height: 100px"
+          ></textarea
+          ><br />
+          <button type="button" class="btn btn-success">Submit</button>
+        </form>
+      </div></div>
+    </div></div>
+</div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
